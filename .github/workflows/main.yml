@@ -16,3 +16,6 @@ jobs:
 
       - name: Install dependencies
         run: flutter pub get
+
+      - name: Analyzing and Formatting code
+        uses: zgosalvez/github-actions-analyze-dart@v1
